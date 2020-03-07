@@ -13,23 +13,24 @@ public class CarController  {
     CarInterface carInterface;
 
     @GetMapping
-    Integer xui(){
+    Integer car(){
         return carInterface.cet(10,4);
     }
 
     @PutMapping
-    String xui2(){
+    String car2(){
         return carInterface.put("Cаня","Вилькель");
     }
 
+
     @PostMapping
-    Integer xui3(){
+    Integer car3(){
         return carInterface.post(5,7);
 
     }
 
     @DeleteMapping
-    String xui4(){
+    String car4(){
         return carInterface.del();
     }
 
