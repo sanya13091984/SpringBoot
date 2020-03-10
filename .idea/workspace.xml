@@ -62,6 +62,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -97,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="160" />
     <option name="y" value="455" />
     <option name="width" value="1120" />
@@ -257,7 +262,7 @@
       <workItem from="1583567338773" duration="1360000" />
       <workItem from="1583570703035" duration="5563000" />
       <workItem from="1583644452989" duration="5403000" />
-      <workItem from="1583809977027" duration="1886000" />
+      <workItem from="1583809977027" duration="1914000" />
     </task>
     <task id="LOCAL-00001" summary="carrrrrrrrrrrrrr">
       <created>1583576857829</created>
@@ -284,7 +289,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72457000" />
+    <option name="totallyTimeSpent" value="72485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
