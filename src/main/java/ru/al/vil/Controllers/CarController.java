@@ -5,42 +5,34 @@ import org.springframework.web.bind.annotation.*;
 import ru.al.vil.Interfaces.CarInterface;
 
 @RestController
-@RequestMapping("/a")
+@RequestMapping("/x")
 
-public class CarController  {
+public class CarController {
 
-    @Autowired
-    CarInterface carInterface;
 
-    @GetMapping
-    Integer car(){
-        return carInterface.cet(10,4);
-    }
 
-//    qrwegrhfgn
-    //trtghj
+  @Autowired
+  CarInterface carInterface;
 
+  @GetMapping
+  String mart(){
+      return carInterface.get("любимая ", "с 8 марта ");
+  }
 
 
 
     @PutMapping
-    String car2(){
-        return carInterface.put("Cаня","Вилькель");
+  Integer car1(){
 
-    }
+      return carInterface.put(10,10);
 
+  }@PostMapping
+  String car2(){
+      return carInterface.post("С праздником","весны жена");
 
-    @PostMapping
-    Integer car3(){
-        return carInterface.post(5,7);
-
-    }
-
-    @DeleteMapping
-    String car4(){
-        return carInterface.del();
-    }
-
-
+  }@DeleteMapping
+  String Car3(){
+      return carInterface.del();
+  }
 
 }

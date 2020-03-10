@@ -1,13 +1,12 @@
 package ru.al.vil.Interfaces;
 
-public interface  CarInterface {
+public interface CarInterface {
 
-    Integer cet(int x, int y);
+        String get(String x, String y);
+        Integer put( int x, int y);
+        String post(String x, String y);
+        String del();
 
-    String put(String x, String y);
 
-    Integer post(int a,int b);
-
-    String del();
 
 }
